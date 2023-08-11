@@ -28,7 +28,7 @@ function Input() {
       {/* <input type="submit" /> */}
       <>
       
-      <button onClick={Output()}>Submit</button>
+      <button onClick={Output}>Submit</button>
       
       </>
       
@@ -42,4 +42,3 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 export default Input
 
               
-
