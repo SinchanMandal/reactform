@@ -3,7 +3,7 @@
 import { useState } from "react";
 import ReactDOM from 'react-dom/client';
 import { useNavigate } from "react-router-dom";
-import index from "./index.css"
+import  "./index.css"
 function Input() {
   const [name, setName] = useState("");
 
@@ -57,7 +57,7 @@ function Input() {
               </div>
              
                 <>
-              <button onClick={Output}>Submit</button>
+              <button  onClick={Output}>Submit</button>
               </>
              
 

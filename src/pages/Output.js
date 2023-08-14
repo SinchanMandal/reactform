@@ -14,65 +14,42 @@ import "./index1.css"
     }
    
         return (
-
-           
-
-
-//             <>
-               
-
-
-// <div className="out_put1">
-// {name}
-// {mail}
-// </div>
-
-       
-
-            
-//             </>
-
-
-<div className="row">
-<div className="form-holder">
-<div className="form-content">
-<div className="form-items">
-          <p>Received Data.</p>
-
-          <div className="col-md-12">
-              <input
-                className="form-control"
-                type="text"
-                value={name}
-                placeholder="Full Name"
-                required=""
-               
-              />
-              </div>
-
-              <div className="col-md-12">
-              <input
-                className="form-control"
-                type="text"
-                value={mail}
-                placeholder="Email"
-                required=""
-               
-              />
-              </div>
-             
-                <>
-             
-              </>
-             
-
+<>
+  {/* JQUERY STEP */}
+  <div className="wrapper">
+    <form action="">
+      <div id="wizard">
+        {/* SECTION 1 */}
+        <h4 />
+        <h1>Received Data</h1>
+        
+        <section>
+            <h2>Your Name</h2>
+          <div className="form-row">
+            {" "}
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Name"
+              value={name}
+            />{" "}
+          </div>
+          <h2>Your Email</h2>
+          <div className="form-row">
+            {" "}
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Email"
+              value={mail}
+            />{" "}
+          </div>
+         
+        </section>
+      </div>
+    </form>
   </div>
-  </div>
-  </div>
-</div>
-
-
-
+</>
 
         )
     }
