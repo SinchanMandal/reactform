@@ -1,13 +1,18 @@
 import { Outlet, Link } from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 const Home = () => {
   return (
     <>
-      <div>
-        This is home
-      </div>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/input">
+     Input
+    </a>
+    
+    
+  </div>
+</nav>
 
-      <Outlet />
     </>
   )
 };
