@@ -20,11 +20,14 @@ function Input() {
     }
   const handleSubmit = (event) => {
     event.preventDefault();
-    // alert(`The name you entered was: ${name}`);
+   
   }
 
   return (
     <form onSubmit={handleSubmit}>
+
+<div className="class_name">
+
 
 
 <div className="row">
@@ -57,7 +60,7 @@ function Input() {
               </div>
              
                 <>
-              <button  onClick={Output}>Submit</button>
+              <button className="btn" onClick={Output}>Submit</button>
               </>
              
 
@@ -67,7 +70,7 @@ function Input() {
 </div>
 
 
-
+</div>
       
       
     </form>
