@@ -32,6 +32,7 @@ import "./index1.css"
               className="form-control"
               placeholder="Name"
               value={name}
+              readOnly
             />{" "}
           </div>
           <h2>Your Email</h2>
@@ -42,6 +43,7 @@ import "./index1.css"
               className="form-control"
               placeholder="Email"
               value={mail}
+              readOnly
             />{" "}
           </div>
          
