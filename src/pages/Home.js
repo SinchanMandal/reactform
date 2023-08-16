@@ -7,7 +7,7 @@ const Home = () => {
     <div className="nav_class">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/input">
+    <a className="navbar-brand" href="/Input">
      Input
     </a>
     
